@@ -11,7 +11,7 @@ const weather = (city, done) => {
     url  = baseUrl + encodeURIComponent(city) + '&appid=' + appid;
     console.log(url)
 
-    request({ url, json:true}, (err, {body}) => {
+    request({ url, json:true }, (err, {body}) => {
         if(err) {
             console.log(err);
         } else {
