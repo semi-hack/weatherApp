@@ -1,0 +1,59 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+  
+h1{
+    text-align: center;
+    color: rgb(13, 24, 23);
+}
+
+#header {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn-primary{
+    background-color: #1e963a!important;
+  
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.temprature{
+    text-align: center;
+    color: rgb(14, 11, 11);
+    flex: 0 0 40%;
+    width: 100%;
+    font-size: 65px;
+    display: flex;
+    justify-content: space-around
+}
+
+.description{
+    text-align: center;
+    color: rgb(14, 11, 11);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.city{
+    text-align: center;
+    color: rgb(14, 11, 11);
+    font-size: 15px;
+}
+
